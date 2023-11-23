@@ -1,6 +1,38 @@
 # Les modèles de conceptions décorateur et stratégie
 ***
+
 ![Patron de conception](https://www.ionos.fr/digitalguide/fileadmin/_processed_/f/7/csm_refactoring-t_10f53eaab5.webp)
+***
+## Sommaire
+- [Les modèles de conceptions décorateur et stratégie](#les-modèles-de-conceptions-décorateur-et-stratégie)
+  * [Définition](#définition)
+  * [Utilité](#utilité)
+  * [Le patron de conception décorateur](#le-patron-de-conception-décorateur)
+    + [Définition](#définition-1)
+    + [Avantages et capacités](#avantages-et-capacités)
+    + [Stratégie et mise en oeuvre](#stratégie-et-mise-en-oeuvre)
+    + [Cas pratique](#cas-pratique)
+    + [Les bénéfices](#les-bénéfices)
+    + [Dans quel cas concret utilise-t-on ce patron de conception?](#dans-quel-cas-concret-utilise-t-on-ce-patron-de-conception)
+    + [Exemple d'utilisation](#exemple-dutilisation)
+      - [Diagramme](#diagramme)
+      - [Classes](#classes)
+      - [Décorateur Citron](#décorateur-citron)
+      - [Décorateur Sirop](#déorateur-sirop)
+    + [Conclusion](#conclusion)
+  * [Le patron de conception Stratégie](#le-patron-de-conception-stratégie)
+    + [Définition](#d-finition-2)
+    + [Avantages et capacités](#avantages-et-capacités-1)
+    + [Cas pratique](#cas-pratique-1)
+    + [Bénéfices](#bénéfices)
+    + [Problèmes](#problèmes)
+    + [Dans quel cas concret utilise-t-on ce patron de conception?](#dans-quel-cas-concret-utilise-t-on-ce-patron-de-conception-1)
+    + [Exemple d'utilisation](#exemple-dutilisation-1)
+      - [Diagramme](#diagramme-)
+      - [Classes](#classes-1)
+    + [Conclusion](#conclusion-1)
+  * [Source](#source)
+***
 ## Définition
 Un design pattern, également appelé patron de conception, 
 représente une solution générale et réutilisable à des problèmes 
