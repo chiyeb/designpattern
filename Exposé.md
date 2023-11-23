@@ -70,6 +70,8 @@ clarté dans la conception et la facilité de maintenance des systèmes logiciel
 - Dans une application web, le patron décorateur peut être utilisé pour ajouter des fonctionnalités de suivi à des pages web. Par exemple, un décorateur peut enregistrer les visiteurs d'une page, ou collecter des données sur l'utilisation de la page.
 
 >Il peut être utilisé dans plusieurs autres cas...
+
+***
 ### Exemple d'utilisation
 Imaginons que nous ayons une classe *Boisson* qui représente différentes boissons gazeuses
 avec des méthodes pour obtenir le coût et la description de chaque boisson.
@@ -171,7 +173,7 @@ successivement 2 décorateurs *(Citron et Sirop)*. Chaque décorateur enveloppe
 la **Boisson d'origine** et ajoute son propre coût et sa propre description à la boisson, 
 ce qui permet ainsi de créer des combinaisons flexibles de fonctionnalités supplémentaires 
 sans altérer la classe de base Boisson.
-
+***
 ### Conclusion
 Pour conclure, le patron de conception décorateur est un schéma de conception qui 
 permet d'ajouter ou de retirer des fonctionnalités à un objet en cours d'exécution. 
@@ -184,7 +186,7 @@ offrant ainsi de nouvelles fonctionnalités à cet objet sans changer celles dé
 Le patron de conception Stratégie est une structure qui permet de 
 regrouper un algorithme dans un objet distinct, favorisant ainsi la 
 *modularité* et la facilité d'évolution du logiciel en rendant l'algorithme interchangeable.
-
+***
 ### Avantages et capacités
 Le Strategy pattern offre une meilleure structuration du code en décomposant 
 les modules et classes, facilitant ainsi la maintenance et le diagnostic.
@@ -194,6 +196,7 @@ et l'interface conviviale permet une utilisation simple de différentes options.
 De plus, la flexibilité du patron permet d'ajouter rapidement de nouvelles stratégies 
 sans modifier le code existant. Cependant, sa complexité peut entraîner des redondances 
 et des inefficacités de communication interne.
+***
 ### Cas pratique
 Le patron stratégie est souvent utilisé dans les cas suivants :
 
@@ -209,7 +212,7 @@ ou l'impression recto verso.
 d'applications web peut utiliser le patron stratégie pour implémenter différentes stratégies 
 d'authentification, telles que l'authentification par mot de passe, l'authentification par 
 jeton ou l'authentification par biométrie.
-
+***
 ### Bénéfices
 Le patron de conception Stratégie présente des avantages significatifs, 
 notamment la flexibilité des algorithmes, la réduction de la duplication de code, 
@@ -217,18 +220,19 @@ la facilité des tests, la modularité, et la séparation des préoccupations. I
 une évolutivité aisée du logiciel, une réutilisation efficace des stratégies, et une diminution 
 du couplage excessif entre le contexte et les différentes stratégies. En résumé, la Stratégie 
 favorise une conception logicielle modulaire, flexible, et facile à entretenir.
+***
 ### Problèmes
 Il est important d'utiliser le patron avec précaution en raison de la dépendance étroite 
 entre le client et les stratégies, ce qui le rend plus adapté aux modifications fondamentales 
 dans le comportement du logiciel.
-
+***
 ### Dans quel cas concret utilise-t-on ce patron de conception?
 - Dans un **jeu vidéo**, le patron stratégie peut être utilisé pour implémenter le comportement des différents types d'ennemis. Par exemple, un ennemi peut avoir une stratégie d'attaque agressive, une stratégie d'attaque défensive ou une stratégie d'attaque furtive.
 - Dans une **application de gestion de fichiers**, le patron stratégie peut être utilisé pour implémenter différentes stratégies de compression de fichiers. Par exemple, une application peut utiliser une stratégie de compression par défaut, une stratégie de compression rapide ou une stratégie de compression maximale.
 - Dans un **système de comptabilité**, le patron stratégie peut être utilisé pour implémenter différentes stratégies de calcul des taxes. Par exemple, une entreprise peut utiliser une stratégie de calcul des taxes par défaut, une stratégie de calcul des taxes pour les entreprises internationales ou une stratégie de calcul des taxes pour les entreprises locales.
 
 > Il peut être utilisé dans plusieurs autres cas...
-
+***
 ### Exemple d'utilisation
 Imaginons une expérience sur un site d'e-commerce : vous choisissez un produit, l'ajoutez au 
 panier, puis, lors de la vérification, le site vous invite à "payer". Bien que cette action 
@@ -340,7 +344,7 @@ public class Article {
     }
 }
 ```
-
+***
 ### Conclusion
 Pour conclure, le patron de conception "Stratégie" offre une approche modulaire et flexible 
 pour gérer des algorithmes interchangeables dans un système. En favorisant la réutilisation du 
