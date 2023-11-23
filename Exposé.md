@@ -181,7 +181,6 @@ Il est basé sur la création de nouvelles classes qui enveloppent l'objet origi
 offrant ainsi de nouvelles fonctionnalités à cet objet sans changer celles déjà existantes.
 
 ## Le patron de conception Stratégie
-***
 ### Définition
 Le patron de conception Stratégie est une structure qui permet de 
 regrouper un algorithme dans un objet distinct, favorisant ainsi la 
@@ -352,7 +351,6 @@ code, la facilité de test, et la séparation des préoccupations, il contribue 
 logiciels évolutifs, modulaires et maintenables. La "Stratégie" s'avère particulièrement utile 
 lorsque des algorithmes variés doivent être appliqués de manière interchangeable dans un 
 contexte donné.
-
 ***
 ## Source
 - Wikipédia
